@@ -1,0 +1,276 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 6,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 2,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 8,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1664303824972,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 6,
+      &quot;numPassingTests&quot;: 2,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1664303826146,
+        &quot;runtime&quot;: 593,
+        &quot;slow&quot;: false,
+        &quot;start&quot;: 1664303825553
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Import and Export Multiple Values using ES6 Module Syntax&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Import and Export Multiple Values using ES6 Module SyntaxA file should be created with the name &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;A file should be created with the name &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Import and Export Multiple Values using ES6 Module Syntax&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [],
+          &quot;failureMessages&quot;: [],
+          &quot;fullName&quot;: &quot;Tests for Import and Export Multiple Values using ES6 Module SyntaxA file should be created with the name importMultipleValues.mjs&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;passed&quot;,
+          &quot;title&quot;: &quot;A file should be created with the name importMultipleValues.mjs&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Import and Export Multiple Values using ES6 Module Syntax&quot;
+          ],
+          &quot;duration&quot;: 10,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedImports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:67:7)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedImports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:67:7)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Import and Export Multiple Values using ES6 Module SyntaxThe values exported from the file &#x27;exportMultipleValues.mjs&#x27; should be imported in the file &#x27;importMultipleValues.mjs&#x27; using the ES6 module syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The values exported from the file &#x27;exportMultipleValues.mjs&#x27; should be imported in the file &#x27;importMultipleValues.mjs&#x27; using the ES6 module syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Import and Export Multiple Values using ES6 Module Syntax&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedExports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:80:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:74:31)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedExports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:80:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:74:31)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Import and Export Multiple Values using ES6 Module SyntaxThree values should be exported from the file &#x27;exportMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Three values should be exported from the file &#x27;exportMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for Import and Export Multiple Values using ES6 Module Syntax&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedImports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:84:31)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;program&#x27; of undefined\n    at getListOfTotalNamedImports (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/utils.js:42:15)\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:84:31)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for Import and Export Multiple Values using ES6 Module SyntaxThree values should be imported in the file &#x27;importMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;Three values should be imported in the file &#x27;importMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;should test the export and import values&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: {
+                    &quot;watts&quot;: 10,
+                    &quot;type&quot;: &quot;LED&quot;
+                  },
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;type\&quot;: \&quot;LED\&quot;, \&quot;watts\&quot;: 10}\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;type\&quot;: \&quot;LED\&quot;, \&quot;watts\&quot;: 10}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:98:28)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: {\&quot;type\&quot;: \&quot;LED\&quot;, \&quot;watts\&quot;: 10}\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:98:28)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;should test the export and import valuesThe object &#x27;bulb&#x27; with specified properties should be exported from the file &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The object &#x27;bulb&#x27; with specified properties should be exported from the file &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;should test the export and import values&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;expected&quot;: [
+                    &quot;camel&quot;,
+                    265,
+                    true,
+                    &quot;5.6&quot;
+                  ],
+                  &quot;name&quot;: &quot;toEqual&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\&quot;camel\&quot;, 265, true, \&quot;5.6\&quot;]\nReceived: undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\&quot;camel\&quot;, 265, true, \&quot;5.6\&quot;]\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:105:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toEqual(expected) // deep equality\n\nExpected: [\&quot;camel\&quot;, 265, true, \&quot;5.6\&quot;]\nReceived: undefined\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:105:27)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;should test the export and import valuesThe array &#x27;myArray&#x27; with specified values should be exported from the file &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The array &#x27;myArray&#x27; with specified values should be exported from the file &#x27;exportMultipleValues.mjs&#x27;&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;should test the export and import values&quot;
+          ],
+          &quot;duration&quot;: 0,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: exportedFunction is not a function&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: exportedFunction is not a function\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:109:12)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: exportedFunction is not a function\n    at Object.&lt;anonymous&gt; (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/.tests/index.test.js:109:12)\n    at Object.asyncJestTest (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/workspace/.tmp/nodejs/coding-practices/coding-practice-1e/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;should test the export and import valuesThe function &#x27;multiplyByFour&#x27; should accept a number and return the value multiplied by four&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The function &#x27;multiplyByFour&#x27; should accept a number and return the value multiplied by four&quot;,
+          &quot;id&quot;: &quot;NJSCPJSLOB_TEST_8&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPJSLOB_TEST_SUITE_1:::Tests for Import and Export Multiple Values using ES6 Module Syntax › :::NJSCPJSLOB_TEST_3:::The values exported from the file &#x27;exportMultipleValues.mjs&#x27; should be imported in the file &#x27;importMultipleValues.mjs&#x27; using the ES6 module syntax\n\n    TypeError: Cannot read property &#x27;program&#x27; of undefined\n\n      40 | export function getListOfTotalNamedImports(babelObject) {\n      41 |   const statementsList = [];\n    &gt; 42 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      43 |     eachStatement.specifiers !== undefined &amp;&amp;\n      44 |     eachStatement.specifiers.length !== 0\n      45 |       ? eachStatement.specifiers.map((eachObject) =&gt;\n\n      at getListOfTotalNamedImports (utils.js:42:15)\n      at Object.&lt;anonymous&gt; (index.test.js:67:7)\n\n  ● :::NJSCPJSLOB_TEST_SUITE_1:::Tests for Import and Export Multiple Values using ES6 Module Syntax › :::NJSCPJSLOB_TEST_4:::Three values should be exported from the file &#x27;exportMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax\n\n    TypeError: Cannot read property &#x27;program&#x27; of undefined\n\n      78 | export function getListOfTotalNamedExports(babelObject) {\n      79 |   const statementsList = [];\n    &gt; 80 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      81 |     eachStatement.type === \&quot;ExportNamedDeclaration\&quot;\n      82 |       ? statementsList.push(\n      83 |           eachStatement.declaration !== null\n\n      at getListOfTotalNamedExports (utils.js:80:15)\n      at Object.&lt;anonymous&gt; (index.test.js:74:31)\n\n  ● :::NJSCPJSLOB_TEST_SUITE_1:::Tests for Import and Export Multiple Values using ES6 Module Syntax › :::NJSCPJSLOB_TEST_5:::Three values should be imported in the file &#x27;importMultipleValues.mjs&#x27; as &#x27;myArray&#x27;, &#x27;bulb&#x27;, and &#x27;multiplyByFour&#x27; using the named export syntax\n\n    TypeError: Cannot read property &#x27;program&#x27; of undefined\n\n      40 | export function getListOfTotalNamedImports(babelObject) {\n      41 |   const statementsList = [];\n    &gt; 42 |   babelObject.program.body.map((eachStatement) =&gt;\n         |               ^\n      43 |     eachStatement.specifiers !== undefined &amp;&amp;\n      44 |     eachStatement.specifiers.length !== 0\n      45 |       ? eachStatement.specifiers.map((eachObject) =&gt;\n\n      at getListOfTotalNamedImports (utils.js:42:15)\n      at Object.&lt;anonymous&gt; (index.test.js:84:31)\n\n  ● :::NJSCPJSLOB_TEST_SUITE_2:::should test the export and import values › :::NJSCPJSLOB_TEST_6:::The object &#x27;bulb&#x27; with specified properties should be exported from the file &#x27;exportMultipleValues.mjs&#x27;\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: {\&quot;type\&quot;: \&quot;LED\&quot;, \&quot;watts\&quot;: 10}\n    Received: undefined\n\n       96 | describe(\&quot;:::NJSCPJSLOB_TEST_SUITE_2:::should test the export and import values\&quot;, () =&gt; {\n       97 |   it(\&quot;:::NJSCPJSLOB_TEST_6:::The object &#x27;bulb&#x27; with specified properties should be exported from the file &#x27;exportMultipleValues.mjs&#x27;\&quot;, () =&gt; {\n    &gt;  98 |     expect(exportedObject).toEqual({\n          |                            ^\n       99 |       watts: 10,\n      100 |       type: \&quot;LED\&quot;,\n      101 |     });\n\n      at Object.&lt;anonymous&gt; (index.test.js:98:28)\n\n  ● :::NJSCPJSLOB_TEST_SUITE_2:::should test the export and import values › :::NJSCPJSLOB_TEST_7:::The array &#x27;myArray&#x27; with specified values should be exported from the file &#x27;exportMultipleValues.mjs&#x27;\n\n    expect(received).toEqual(expected) // deep equality\n\n    Expected: [\&quot;camel\&quot;, 265, true, \&quot;5.6\&quot;]\n    Received: undefined\n\n      103 |\n      104 |   it(\&quot;:::NJSCPJSLOB_TEST_7:::The array &#x27;myArray&#x27; with specified values should be exported from the file &#x27;exportMultipleValues.mjs&#x27;\&quot;, () =&gt; {\n    &gt; 105 |     expect(exportedArray).toEqual([\&quot;camel\&quot;, 265, true, \&quot;5.6\&quot;]);\n          |                           ^\n      106 |   });\n      107 |\n      108 |   it(\&quot;:::NJSCPJSLOB_TEST_8:::The function &#x27;multiplyByFour&#x27; should accept a number and return the value multiplied by four\&quot;, () =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:105:27)\n\n  ● :::NJSCPJSLOB_TEST_SUITE_2:::should test the export and import values › :::NJSCPJSLOB_TEST_8:::The function &#x27;multiplyByFour&#x27; should accept a number and return the value multiplied by four\n\n    TypeError: exportedFunction is not a function\n\n      107 |\n      108 |   it(\&quot;:::NJSCPJSLOB_TEST_8:::The function &#x27;multiplyByFour&#x27; should accept a number and return the value multiplied by four\&quot;, () =&gt; {\n    &gt; 109 |     expect(exportedFunction(5)).toBe(20);\n          |            ^\n      110 |   });\n      111 | });\n      112 |\n\n      at Object.&lt;anonymous&gt; (index.test.js:109:12)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
